@@ -1,0 +1,64 @@
+'INSTRUCTIONS AND TODOS
+
+'**********************READ THIS OR THE EXAMPLE WILL NOT WORK*********************
+
+NOTE: The intention of the post wasnt to show how to make nothing ugly to nobody, its just a creative attempt to show how to control what some user get from the world. It can be used to control childs or employees or just to avoid that childs or employees go to some site, etc.
+Of course if you do something 'bad' with this code its on your own risk and im not will be happy for that and dont encourage it. : )
+
+EXPLANATION OF USAGE:
+
+To make it work just add in the Sites.txt the name of the sites that you want to intercept.
+Then run the app
+If the browser has the page in cache maybe it dosent goes right, only if refresh (if ask it again to the server) we cant hack it
+Add in the sub the lines to REPLACE some html with your own text
+
+GOOD LUCK and keep watcjing that im replacinf the code very soon with a more complete.
+
+'--------------------------------------------------------------------------------------------------------------------------------------
+
+'This is quite a beta code, but want to share it when i just coding it
+'maybe some one could improve it or exchange ideas
+'
+'How it works?
+'
+'This code could intercept the browsers querry to certain domains, in this case we use google
+'then we can do something with the code that we intercept!!
+'
+'
+'Next version will get the IP of the domains we want to intercept from the user pc
+'then will add those domains to the 'hosts' file.
+'In XP the file is on c:\windows\system32\drivers\etc\hosts
+'
+'Use notepad to add the next line to the end of the line:
+'
+'127.0.0.1 www.google.com
+'(Of course with out the quote!!)
+'and save it.
+'
+'Then run this app and open your browser and type www.google.com or http://www.google.com/intl/en/ if you
+'where directed to your native labguage version of google
+'
+'Check that we intercept the answer from google and add some lines to the webpage
+'before display it on the users PC
+'
+'This code will NOT really hack google, just do it IN the machine where the InterceptServer is running!!
+'
+'But if you 'infect' some PC with this code, you will be able to intercept as many sites as
+'you add to the hosts files (dont forget to get the IP of the sites before!)
+'and you will be able to add some text, links, etc.
+'The user wont notice that some app are intercepting and manipulating his navigation
+'
+'DONT DO BAD THINGS...just jokes!!
+'
+'Hope that some ones could bring ideas or improve the code
+
+'
+'WARNING:
+'No matter that you are running or not this example, if you add www.google.com to your hosts file
+'you WONT be able to navigate to google UNTIL you erase the line that you add!!!
+'
+'Suggestions or comments to ricardoarias@yahoo.com
+'
+'Sorry for bad english, im from argentina!
+'
+'
